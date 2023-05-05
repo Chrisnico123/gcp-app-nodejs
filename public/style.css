@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300;400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  text-align: justify;
+}
+
+.head {
+  text-align: center;
+  height: auto;
+  background-color: #6781ee;
+  color: #f1f4ff;
+}
+
+.jumbotron {
+  background-color: #373737;
+  display: grid;
+  place-items: center;
+  height: 500px;
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.jumbotron-detail {
+  color: #f1f8f3;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 15%;
+}
+
+.info > div {
+  margin-top: -15%;
+  margin-left: 5%;
+  width: 1000px;
+}
+
+.link {
+  margin-top: -10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link > a {
+  padding: 5%;
+}
+
+.info-personal > p {
+  border-bottom: 1px solid #373737;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+.size-img {
+  height: 80px;
+}
+
+@media only screen and (max-width: 550px) {
+  .size-img {
+    height: 50px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info > div {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: auto;
+  }
+}
